@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe4ec, #ffe6f7, #fff5f7);
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #d63384;
+  margin-bottom: 1rem;
+}
+
+.intro {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+section {
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  max-width: 800px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #b8005c;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.song-list li {
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  background: #ffeef6;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.song-list li:hover {
+  background: #ffd6e8;
+  transform: scale(1.02);
+}
+
+.song-list a {
+  text-decoration: none;
+  color: #8a005c;
+  font-weight: 500;
+}
+
+.song-list .note {
+  background: transparent;
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  font-size: 0.9rem;
+  box-shadow: none;
+  margin-top: 0.8rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  background: #fff0f6;
+  border-top: 1px solid #ffd6e8;
+  font-weight: 500;
+}
+.foto-romantica {
+  display: block;
+  max-width: 300px;   /* ancho máximo */
+  margin: 1rem auto;  /* centrada */
+  border-radius: 15px; /* esquinas redondeadas */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* sombra suave */
+}
+
+.foto-romantica1 {
+  display: block;
+  max-width: 300px;   /* ancho máximo */
+  margin: 1rem auto;  /* centrada */
+  border-radius: 15px; /* esquinas redondeadas */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* sombra suave */
+}
+.foto-romantica2 {
+  display: block;
+  max-width: 300px;   /* ancho máximo */
+  margin: 1rem auto;  /* centrada */
+  border-radius: 15px; /* esquinas redondeadas */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* sombra suave */
+}
+.foto-romantica3 {
+  display: block;
+  max-width: 300px;   /* ancho máximo */
+  margin: 1rem auto;  /* centrada */
+  border-radius: 15px; /* esquinas redondeadas */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* sombra suave */
+}
+.foto-romantica4 {
+  display: block;
+  max-width: 300px;   /* ancho máximo */
+  margin: 1rem auto;  /* centrada */
+  border-radius: 15px; /* esquinas redondeadas */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* sombra suave */
+}
+.galeria-tres-fotos {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espacio entre imágenes */
+  margin: 1rem auto;
+  flex-wrap: wrap; /* Para que sea responsive */
+}
+
+.foto-pequena {
+  width: 150px; /* Ancho fijo pequeño */
+  height: 150px; /* Alto fijo para que sean cuadradas */
+  object-fit: cover; /* Para que la imagen se ajuste sin deformarse */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
